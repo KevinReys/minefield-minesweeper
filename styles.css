@@ -1,0 +1,47 @@
+/* Estilos para células */
+.cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #9c9898;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+/* Estilos para o tabuleiro */
+.board {
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #ccc;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* Estilos para cabeçalhos */
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+}
+
+/* Media query para ajustar estilos em telas menores */
+@media (max-width: 600px) {
+    .board {
+        margin: 0 auto; /* Centraliza o tabuleiro */
+    }
+
+    h1, h2, h3 {
+        margin: 0 auto; /* Centraliza os cabeçalhos */
+    }
+}
